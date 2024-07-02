@@ -1,0 +1,29 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(103.75deg, #e6d3ef 33.38%, #a8badd 82.99%);
+  padding: 20px;
+}
+
+.marquee-content {
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-item {
+  padding: 0 30px;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

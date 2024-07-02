@@ -1,0 +1,159 @@
+.shield-container {
+  display: flex;
+  background-color: rgba(68, 66, 185, 1);
+  flex-direction: column;
+}
+.security-shield {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  height: auto;
+}
+.shieldContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    justify-content: center;
+}
+.shieldcontent-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: rgba(68, 66, 185, 1);
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.shieldimg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-height: 140px;
+    height: 100%;
+    max-width: 114px;
+    width: 100%;
+    bottom: 35px;
+    left: 46%;
+}
+.shield-headimg {
+  position: relative;
+  bottom: 126px;
+  width: 40px;
+  height: 40px;
+}
+.shieldcontent-containerHeader {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(62, 197, 255, 1);
+}
+.shieldcontent-containerHeader2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  max-width: 600px;
+  width: 100%;
+}
+.shieldcontent-container-cards {
+  display: flex;
+  gap: 30px;
+  gap: 20px;
+}
+.shieldcontentContainer-card {
+  display: flex;
+  max-width: 312px;
+  width: 100%;
+  background-color: rgba(81, 203, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 20px;
+  height: 90px;
+}
+.service-img {
+  width: 20px;
+}
+.service-container {
+  background-color: rgba(62, 197, 255, 1);
+  border-radius: 50%;
+  padding: 12px;
+}
+.service-name {
+  font-family: Poppins;
+  max-width: 170px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+}
+.security-shield-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.security-shieldDsec {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(159, 157, 237, 1);
+}
+.security-services {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.service-percentage {
+  font-family: Poppins;
+  font-size: 23.58px;
+  font-weight: 700;
+  color: white;
+}
+.service-security-name {
+  font-family: Poppins;
+  font-size: 12.7px;
+  font-weight: 400;
+  color: rgba(159, 157, 237, 1);
+}
+
+@media only screen and (max-width: 1025px) {
+    .shieldimg-container {
+        left: 44%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .shieldcontent-container-cards {
+      flex-direction: column;
+    }
+    .security-services {
+      flex-direction: column;
+    }
+    .shieldimg-container {
+      bottom: 35px;
+    }
+    .shield-headimg {
+      bottom: 114px;
+    }
+    .shieldimg-container {
+      left: 42%;
+      bottom: 26px;
+  }
+  }
+@media only screen and (max-width: 425px) {
+    .shieldimg-container {
+        left: 35%;
+    }
+}
+@media only screen and (max-width: 321px) {
+    .shieldimg-container {
+        left: 32%;
+    }
+}

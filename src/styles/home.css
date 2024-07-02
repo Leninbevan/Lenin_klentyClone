@@ -1,0 +1,93 @@
+.home-container{
+    background: linear-gradient(103.75deg, #e6d3ef 33.38%, #a8badd 82.99%);
+    padding: 60px 80px;
+}
+.contentImg-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px 50px 0px;
+}
+.content-container{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.carouselDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.img-container{
+    max-width: 550px;
+    width: 100%;
+}
+.home-img{
+    width: 100%;
+}
+.homeSchedule-button {
+    border: 1px solid rgba(80, 78, 228, 1);
+    color: white;
+    font-weight: 700;
+    background-color: rgba(80, 78, 228, 1);
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+.content-header{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(80, 78, 228, 1);
+}
+.font-50{
+    font-size: 50px;
+    font-weight: 700;
+}
+.font-18{
+    font-size: 18px;
+}
+.carousel-header{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(124, 123, 176, 1);
+}
+.font-32{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(14, 13, 89, 1);
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .fadeIn {
+    animation: fadeIn 3s ease-in;
+  }
+
+@media only screen and (max-width: 1025px) {
+    .contentImg-container{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .font-50{
+        font-size: 30px;
+    }
+    .content-container{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .home-container {
+        padding: 60px 14px;
+    }
+}

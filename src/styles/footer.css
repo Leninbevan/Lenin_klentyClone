@@ -1,0 +1,31 @@
+.footer-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(180deg, #5452be 0%, #161489 100%);
+}
+.footer-container > div {
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.footer-button {
+  border: 1px solid rgba(80, 78, 228, 1);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: rgba(80, 78, 228, 1);
+  padding: 12px 24px;
+  border-radius: 4px;
+  max-width: 225px;
+  width: 100%;
+}
+@media only screen and (max-width: 425px) {
+    .footer-container {
+        padding: 12px;
+    }
+}

@@ -1,0 +1,79 @@
+.salesteam-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+}
+.salesTeam-card {
+  display: flex;
+  max-width: 846px;
+  width: 100%;
+  background-color: #f8f4fe;
+  border-radius: 12px;
+  margin: auto;
+}
+.salesTeam-imgContainer {
+  max-width: 425px;
+  width: 100%;
+}
+.salesTeam-img {
+  max-width: 425px;
+  width: 100%;
+}
+.testimonialcard-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 7%;
+}
+.salesTeam-header {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+.salesTeam-header > span {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.sales-name {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+}
+.salesteam-mainHeader {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  max-width: 877px;
+  width: 100%;
+  margin: auto;
+}
+@media only screen and (max-width: 769px) {
+  .testimonialcard-container {
+    padding: 0%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .salesTeam-card {
+    flex-direction: column;
+  }
+  .testimonialcard-container {
+    padding: 20px;
+  }
+  .salesTeam-imgContainer {
+    max-width: 425px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,84 @@
+.salescard-container{
+    justify-content: space-between;
+    padding: 20px 0px 20px 20px;
+    max-width: 786px;
+    height: auto;
+    width: 100%;
+    border-radius: 16px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+}
+.salescard-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 349px;
+    width: 100%;
+    text-align: left;
+}
+.salescard-imgContainer{
+    max-width: 362px;
+    width: 100%;
+}
+.salescard-img{
+    max-width: 320px;
+    width: 100%;
+}
+.sales-percentageontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.salescard-header{
+    font-size: 20px;
+    color: white;
+}
+.salesCard-percentageDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.salescard-percentage{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.salescard-nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.salescard-icon{
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    color: black; 
+}
+.carousel-control-prev {
+    display: none !important;
+}
+.carousel-control-next {
+    display: none !important;
+}
+.carousel-indicators {
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 769px) {
+    .salescard-container{
+        flex-direction: column;
+        width: fit-content;
+        gap: 20px;
+        padding: 20px;
+    }
+}
