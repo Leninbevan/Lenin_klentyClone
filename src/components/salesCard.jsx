@@ -22,7 +22,7 @@ const Salescard = ({item}) => {
                         </div>
                     </div>
                 </div>
-                <div className='salescard-nav'>
+                <div className='salescard-nav cursor'>
                     <div style={{fontSize:"20px",fontWeight:600,color:"#6DE5FF"}}>READ CASE STUDY</div>
                     <div><LuMoveRight style={{fontSize:"30px",color:"#6DE5FF"}}/></div>
                 </div>

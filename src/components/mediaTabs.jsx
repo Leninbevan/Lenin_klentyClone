@@ -8,6 +8,7 @@ import linkedIn from "../assests/linkedIn.png";
 import phone from "../assests/phone.png";
 import sms_tab from "../assests/sms_tab.png";
 import "../styles/media.css";
+import "../index.css";
 
 
 const Mediatabs = () => {
@@ -45,7 +46,7 @@ const Mediatabs = () => {
                                     Use voicemails to increase call connect rates.
                                     Sync all notes to CRM.
                                 </div>
-                                <div className='media-nav'>
+                                <div className='media-nav cursor'>
                                     <div style={{ fontSize: "14px", fontWeight: "600", color: "#504EE4" }}>LEARN MORE</div>
                                     <div><img src={Arrow} alt="Arrow" style={{ width: "20px" }} /></div>
                                 </div>
@@ -68,7 +69,7 @@ const Mediatabs = () => {
                                     connect requests, InMails, and Messages for you.
                                     Just hit send.
                                 </div>
-                                <div className='media-nav'>
+                                <div className='media-nav cursor'>
                                     <div style={{ fontSize: "14px", fontWeight: "600", color: "#504EE4" }}>LEARN MORE</div>
                                     <div><img src={Arrow} alt="Arrow" style={{ width: "20px" }} /></div>
                                 </div>
@@ -113,7 +114,7 @@ const Mediatabs = () => {
                                     for mobile-savvy prospects (that’s everyone, btw).
                                     Gently nudge prospects towards a conversation.
                                 </div>
-                                <div className='media-nav'>
+                                <div className='media-nav cursor'>
                                     <div style={{ fontSize: "14px", fontWeight: "600", color: "#504EE4" }}>LEARN MORE</div>
                                     <div><img src={Arrow} alt="Arrow" style={{ width: "20px" }} /></div>
                                 </div>

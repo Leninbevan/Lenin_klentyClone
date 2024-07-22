@@ -47,7 +47,6 @@ const Salesmarket = () => {
                         })
                     }
                 </Carousel>
-                {/* <Salescard /> */}
             </div>
         </div>
     )

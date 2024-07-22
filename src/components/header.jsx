@@ -20,15 +20,15 @@ const Header = () => {
             <div>
               <img src={Logo} alt="logo" className="cursor" />
             </div>
-            <div className="font-14 cursor dis-none">Features</div>
-            <div className="font-14 cursor dis-none">Integration</div>
-            <div className="font-14 cursor dis-none">Customer Stories</div>
-            <div className="font-14 cursor dis-none">Pricing</div>
-            <div className="font-14 cursor dis-none">Resources</div>
-            <div className="font-14 cursor dis-none">Product Demo</div>
+            <div className="font-14 cursor dis-none borderBottom cursor">Features</div>
+            <div className="font-14 cursor dis-none borderBottom cursor">Integration</div>
+            <div className="font-14 cursor dis-none borderBottom cursor">Customer Stories</div>
+            <div className="font-14 cursor dis-none borderBottom cursor">Pricing</div>
+            <div className="font-14 cursor dis-none borderBottom cursor">Resources</div>
+            <div className="font-14 cursor dis-none borderBottom cursor">Product Demo</div>
           </div>
           <div className="rightHeader">
-            <div className="font-14 cursor dis-none">Login</div>
+            <div className="font-14 cursor dis-none borderBottom">Login</div>
             <div>
               <button className="headerSchedule-button dis-none">
                 SCHEDULE DEMO
